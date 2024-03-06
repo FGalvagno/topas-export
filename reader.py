@@ -5,7 +5,9 @@ import glob
 import pandas as pd
 import os
 
-
+class Reader():
+    def __init__(location,):
+        pass
 def split_by_month(df, location):
     """ Splits the DF data by month.
 

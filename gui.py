@@ -33,10 +33,8 @@ class GUI(Frame):
             initialdir='./',
             filetypes=filetypes)
 
-        showinfo(
-            title='Selected Files',
-            message=filenames
-    )
+        return filenames
+
 
 def main():
     root = Tk()
